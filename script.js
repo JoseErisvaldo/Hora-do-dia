@@ -17,19 +17,24 @@ document.getElementById('nome').innerHTML = nome
 
 let horaPeriodo = new Date()
 let periodo = horaPeriodo.getHours()
-console.log(periodo)
-
-
 
 function periodoDoDia () {
-    if (periodo >= 06 && periodo < 12) {
+    if (periodo >= 06 && periodo < 09) {
+        let trocar = document.getElementById('conteiner')
+    
+        document.querySelector('.conteiner').classList = 'manhazinha'
+    } else if (periodo >= 09 && periodo < 12){
         let trocar = document.getElementById('conteiner')
     
         document.querySelector('.conteiner').classList = 'manha'
-    } else if (periodo >=12 && periodo < 18) {
+    } else if (periodo >=12 && periodo < 17) {
         let trocar = document.getElementById('conteiner')
     
         document.querySelector('.conteiner').classList = 'tarde'
+    } else if (periodo >=17 && periodo <  19) {
+        let trocar = document.getElementById('conteiner')
+    
+        document.querySelector('.conteiner').classList = 'tardezinha'
     } else {
         let trocar = document.getElementById('conteiner')
     

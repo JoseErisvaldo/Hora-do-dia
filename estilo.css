@@ -17,10 +17,24 @@ body {
 
     display: flex;
     justify-content: center;
-    background: url(./imagens/manha.jpg) no-repeat;
+    background: url(./imagens/manha.PNG) no-repeat;
+    background-size:cover ;
+    background-position: left center;
+}
+
+.manhazinha {
+    height: 100vh;
+    background-color: rgb(87, 117, 117);
+
+    display: flex;
+    justify-content: center;
+    background: url(./imagens/manhazinha.jpg) no-repeat;
     background-size:cover ;
     background-position: center center;
 }
+
+
+
 
 .tarde {
     height: 100vh;
@@ -32,6 +46,19 @@ body {
     background-size:cover ;
     background-position: center right;
 }
+
+
+.tardezinha {
+    height: 100vh;
+    background-color: rgb(87, 117, 117);
+
+    display: flex;
+    justify-content: center;
+    background: url(./imagens/tardezinha.PNG) no-repeat;
+    background-size:cover ;
+    background-position: center center;
+}
+
 
 
 .noite {

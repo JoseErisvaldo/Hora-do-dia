@@ -11,7 +11,7 @@ function hora () {
 let repetir = setInterval(hora, 1000)
 
 
-/*let nome =   prompt('Digite seu nome')*/
+let nome =   prompt('Digite seu nome')
 
 document.getElementById('nome').innerHTML = nome
 

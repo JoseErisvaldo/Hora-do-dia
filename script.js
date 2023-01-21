@@ -11,12 +11,30 @@ function hora () {
 let repetir = setInterval(hora, 1000)
 
 
-let nome =   prompt('Digite seu nome') 
-
+/*let nome =   prompt('Digite seu nome')*/
 
 document.getElementById('nome').innerHTML = nome
-/*
-for (let dado = 1; dado < le; dado++) {
-    
 
-} */
+let horaPeriodo = new Date()
+let periodo = horaPeriodo.getHours()
+console.log(periodo)
+
+
+
+function periodoDoDia () {
+    if (periodo >= 06 && periodo < 12) {
+        let trocar = document.getElementById('conteiner')
+    
+        document.querySelector('.conteiner').classList = 'manha'
+    } else if (periodo >=12 && periodo < 18) {
+        let trocar = document.getElementById('conteiner')
+    
+        document.querySelector('.conteiner').classList = 'tarde'
+    } else {
+        let trocar = document.getElementById('conteiner')
+    
+        document.querySelector('.conteiner').classList = 'noite'
+    }
+}
+
+periodoDoDia()

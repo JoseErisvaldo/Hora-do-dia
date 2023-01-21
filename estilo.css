@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: bisque;
+}
+
+#conteiner {
+    height: 100vh;
+    background-color: aqua;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.conteiner-relogio {
+    border-radius: 25px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 305px;
+    background-color: aliceblue;
+}
+
+.descricao {
+
+    width: 300px;
+    height: 101px;
+}
+
+#titulo {
+    text-align: center;
+    padding: 5px;
+
+    height: 35px;
+}
+
+#mensagem {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+#relogio {
+    align-items: center;
+    justify-content: center;
+    width: 301px;
+    height: 151px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
